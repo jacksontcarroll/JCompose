@@ -1,0 +1,52 @@
+﻿#
+TYPE COMIC
+ID CARLIN
+NAME George Carlin
+#
+TYPE JOKE
+JOKE Get on the plane, get on the plane. I say, F*** YOU! I'm getting IN the plane! Evel Knievel can get ON the plane. There seems to be less wind in here!
+AUTHOR George Carlin
+#
+TYPE COMIC
+ID BURR
+NAME Bill Burr
+#
+TYPE JOKE
+JOKE Pitbulls are like a gun you can pet.
+AUTHOR Bill Burr
+#
+TYPE COMIC
+ID D'ELIA
+NAME Chris D'elia
+#
+TYPE JOKE
+JOKE Who the f*** would run for a job where it costs 100 million to get it so you can make 400 grand a year? That isn’t a red flag to anybody?
+AUTHOR Bill Burr
+#
+TYPE COMIC
+ID JEFFERIES
+NAME Jim Jefferies
+#
+TYPE COMIC
+ID MULANEY
+NAME John Mulaney
+#
+TYPE JOKE
+JOKE [on facelifts] What would you rather be? 52 and look 52, or 52 and look like a 28-year-old lizard?
+AUTHOR Bill Burr
+#
+TYPE JOKE
+JOKE I always thought that quicksand was gonna be a much bigger problem than it turned out to be. You watch cartoons and quicksand is like the third biggest thing you have to worry about, behind actual sticks of dynamite and giant anvils falling on you from the sky.
+AUTHOR John Mulaney
+#
+TYPE JOKE
+JOKE I was once on the phone with Blockbuster Video, which is a very old-fashioned sentence.
+AUTHOR John Mulaney
+#
+TYPE JOKE
+JOKE I was bullied when I was in school for being Asian-American. The biggest problem with that is that I'm not Asian-American.
+AUTHOR John Mulaney
+#
+TYPE JOKE
+JOKE What's heavier-- a pound of feathers, or a pound of lead? The feathers, because each feather is actually 20,000 Abraham Lincoln statues.
+AUTHOR Athena Jasman

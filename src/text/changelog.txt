@@ -1,0 +1,18 @@
+2.0.0 - 8/7/17 - Old JackyGames idea
+2.0.1 - 8/13/17 - Basic website design
+2.0.2 - 8/14/17 - Added links, improved images, implemented basic JQuery and Javscript, font change to Segoe UI Light
+2.0.3 - 8/16/17 - Added BASIC games page, slight improvements here and there
+2.0.4 - 8/17/17 - Added favicon, music-hover.gif, fixed games' back button, planned JS/JQ for Games page
+2.0.5 - 8/18/17 - Added music basic outline, comedy banner
+2.0.6 - 8/19/17 - Added comedy basic outline, changed headerContainer to hContainer and began CSS universalization
+2.0.7 - 8/20/17 - Finished CSS universalization, improved music styling and code readability
+2.0.8 - 8/21/17 - Finished CSS redundancy removal, improved the music styling slightly
+2.0.9 - 8/30/17 - Partial CSS responsiveness added
+2.1.0 - 9/21/17 - Added colors, finished CSS responsiveness, added Copyright
+2.1.1 - 10/8/17 - Added background, added Last Updated, finished CSS, Copyright via script; Added JQuery 'JC' animation
+2.1.2 - 11/12/17 - Updated JQuery animations, compressed Asteroids II, added game loading script & 50% music loading script, Preloaded index images and social media
+2.1.3 - 12/22/17 - Added 'about' section, added 'comedy' section content, updated Potatoman 2 code and physics, moved social media icons slightly left
+2.1.4 - 12/24/17 - Preloaded all images, compressed some bigger images, updated index hover images, added all games gameplay gifs
+2.1.5 - 12/25/17 - Fixed functions of the music section, fixed back buttons on games, added music, added 'Movement' game, added <meta> information... went public :)
+2.1.6 - 1/5/18 - Cleaned up some code and file organization
+2.1.7 - 1/19/18 - Added a few requirements for Web Design course

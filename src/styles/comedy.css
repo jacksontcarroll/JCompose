@@ -1,0 +1,51 @@
+/* Styles for comedy/index.html */
+
+.titleBanner {
+    background: #e0de31;
+}
+
+.themeColor, .backButton:hover {
+    color: #e0de31;
+}
+
+.columnContainer {
+    display: block;
+    text-align: center;
+}
+
+.columnContainer img {
+    width: 40%;
+    margin: auto;
+    border: 2px solid #e0de31;
+}
+
+.contentContainer {
+    width: 80%;
+}
+
+.joke {
+    display: block;
+    font-style: italic;
+}
+
+.author {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 7%;
+}
+
+.original {
+    margin-bottom: 7%;
+}
+
+/* Copyright */
+
+#copyrightComedy {
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    background: none;
+    font-style: italic;
+    font-size: .8em;
+    color: #666;
+}

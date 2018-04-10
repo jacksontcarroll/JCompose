@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JCompose</title>
+	<link rel="stylesheet" type="text/css" href="src/styles/universal.css">
+	<link rel="stylesheet" type="text/css" href="src/styles/index.css">
+	<link rel="icon" href="src/img/index/x-icon.ico" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="description" content="[JC] Games ~ Music ~ Comedy">
+	<meta name="author" content="Jackson Carroll">
+	<meta name="keywords" content="about, home, jackson, jc, jackson carroll, athena jasman, george carlin, bill burr, chris d'elia, jim jefferies, john mulaney, comics, jokes, music, comedy, games, art, asteroids, potatoman, dijkstra, dijkstra's algorithm, code, jcompose, j compose, portfolio, blog, jackygames, jacky games, shank your nan, super smash bots brawl, ssbb">
+	<script src="src/scripts/jquery-3.2.1.min.js"></script>
+</head>
+<body onload="setLastUpdatedInformation(); preloadUniversalImages()">
+	<!--Header container-->
+	<div>
+    <!--Back button-->
+		<span class="backButton"><a href="index.html">&#8592; Back</a></span>
+
+		<!--Social Media links-->
+		<div class="socialMedia">
+			<a href="mailto:jacksontcarroll@gmail.com"><img src="src/img/universal/email.png"></a>
+			<a target="_blank" href="https://www.youtube.com/channel/UCO4yvREmS76Yu8Kh5fO7LJA"><img src="src/img/universal/youtube.png"></a>
+			<a target="_blank" href="https://twitter.com/jacksontcarroll"><img src="src/img/universal/twitter.png"></a>
+			<a target="_blank" href="https://www.instagram.com/jacksontcarroll/"><img src="src/img/universal/instagram.png"></a>
+			<a target="_blank" href="https://www.twitch.tv/spootloops"><img src="src/img/universal/twitch.png"></a>
+			<a target="_blank" href="https://steamcommunity.com/id/spootloops/"><img src="src/img/universal/steam.png"></a>
+			<a target="_blank" href="https://www.chess.com/member/jacksontcarroll"><img src="src/img/universal/chess.png"></a>
+			<a target="_blank" href="https://open.spotify.com/user/spyperson"><img src="src/img/universal/spotify.png"></a>
+			<a target="_blank" href="https://soundcloud.com/jackson-carroll-632234425"><img src="src/img/universal/soundcloud.png"></a>
+		</div>
+
+		<!--Title-->
+		<div class="titleContainer">
+			<span class="title"><a href="#"><span class="themeColor bold">JC</span>ompose.com</a></span>
+			<span class="titleBanner">About</span>
+		</div>
+	</div>
+
+	<!--'About' content-->
+  <div class="contentContainer">
+    <div id="aboutContent">
+      <div class="aboutHeader themeColor">Who are you?</div>
+      <div class="aboutAnswer">My name is Jackson Carroll. I'm an 18 year old high school senior interested in math, computer science, music theory and music composition. I like programming, dogs, web design, stand-up comedy, recreational mathematics, and diet soda. I'm a centrist. My favorite color is <span class="themeColor">#ff5d5d</span>. I'm an ENTJ.</div>
+
+      <div class="aboutHeader themeColor">What is JCompose?</div>
+      <div class="aboutAnswer">JCompose is my portfolio. I changed the name from 'Jackygames' after realizing that, a) having ‘games’ in the domain name basically guaranteed that my school would block it, and b) I wanted it to encompass all of my creative projects, not just games- to 'compose' just means to create, but it also references my musical compositions.</div>
+
+      <div class="aboutHeader themeColor">Why did you start making games / composing music?</div>
+      <div class="aboutAnswer">I started programming so I could learn how to make plugins for Minecraft servers (which were in Java). Games were the easiest to make for me, allowed me to easily show other people what I'd been working on, and were just satisfying to complete and watch other people play. I started composing in my free time after enjoying writing music for a band assignment.</div>
+
+      <div class="aboutHeader themeColor">Is JCompose done?</div>
+      <div class="aboutAnswer">Not even close. I have so many ideas left to add. Here are a few things I want JCompose to feature:
+				<ul>
+					<li>A 'blog' section</li>
+					<li>Fancier looking music and comedy pages</li>
+					<li>A 'Newgrounds'-type uploading system to allow people to upload their own content</li>
+					<li>MORE CONTENT! More games, more music, more categories of stuff, more ads!</li>
+				</ul>
+			</div>
+
+      <div class="aboutHeader themeColor">Who made the art?</div>
+      <div class="aboutAnswer">All of the images of the social media links are owned by their respective companies, I've simply added a 50% opacity filter for hover effects. The Games, Music and Comedy links (as well as the name 'JCompose') were created by my girlfriend, Athena Jasman.</div>
+
+			<div class="aboutHeader themeColor">What are you working on right now?</div>
+			<div class="aboutAnswer">These are my priorities, from most to least important:
+				<ol>
+					<li>Asteroids 2</li>
+					<li>Potatoman 2</li>
+					<li>More music</li>
+					<li>A better layout</li>
+					<li>Ads</li>
+				</ol>
+			</div>
+
+      <div class="aboutHeader themeColor">What happened to ___?</div>
+      <div class="aboutAnswer">If you're a Jackygames veteran, you might notice that some of my older, less technically impressive games aren't on JCompose. This is for one of two reasons: either I deemed it not a good representation of my coding ability, which is the point of having an online portfolio, or the code was lost or became corrupted- unfortunately, that's what happened to the original Shank Your Nan as well as Super Smash Bots Brawl.</div>
+		</div>
+	</div>
+
+	<!--Feedback form-->
+	<form id="feedbackForm" action="mailto:jacksontcarroll@gmail.com" method="post" enctype="text/plain">
+		<div id="feedbackFormTitle">Feedback Form</div>
+		<!--Name-->
+		<div class="feedbackFormSubtitle">Name</div>
+		First:<br><input type="text" name="firstname" maxlength="15" length="15"><br><br>
+		Last:<br><input type="text" name="lastname" maxlength="20" length="20">
+		<!--Gender-->
+		<div class="feedbackFormSubtitle">Gender</div>
+		<input type="radio" name="gender" value="male" checked>Male<br>
+		<input type="radio" name="gender" value="female">Female<br>
+		<input type="radio" name="gender" value="other">Other
+		<!--Comments-->
+		<div class="feedbackFormSubtitle">Comments</div>
+		<textarea name="comments" form="feedbackForm"></textarea><br>
+		<!--Submit-->
+		<input type="submit" value="Submit">
+	</form>
+
+	<!--Copyright-->
+	<div class="copyrightContainer">
+		<div class="copyright"></div>
+	</div>
+
+	<!--Scripts-->
+	<script src="src/scripts/universal.js"></script>
+	<script src="src/scripts/index.js"></script>
+</body>
+</html>

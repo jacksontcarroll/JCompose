@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JCompose</title>
+	<link rel="stylesheet" type="text/css" href="src/styles/universal.css">
+	<link rel="stylesheet" type="text/css" href="src/styles/games.css">
+	<link rel="icon" href="src/img/games/x-icon.ico" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="description" content="[JC] Games">
+	<meta name="author" content="Jackson Carroll">
+	<meta name="keywords" content="about, home, jackson, jc, jackson carroll, athena jasman, george carlin, bill burr, chris d'elia, jim jefferies, john mulaney, comics, jokes, music, comedy, games, art, asteroids, potatoman, dijkstra, dijkstra's algorithm, code, jcompose, j compose, portfolio, blog, jackygames, jacky games, shank your nan, super smash bots brawl, ssbb">
+	<script src="src/scripts/jquery-3.2.1.min.js"></script>
+	<script>
+		$.get("src/text/games.txt", function(data) {
+			var preloadLines = data.split("\n");
+
+			for (i=1; i<preloadLines.length; i+=7) {
+				var id = preloadLines[i].slice(3);
+				var tempImg = new Image();
+				var tempGif = new Image();
+				tempImg.src = "src/img/games/"+id+".png";
+				tempGif.src = "src/img/games/"+id+".gif";
+			}
+		});
+	</script>
+</head>
+<body onload="setLastUpdatedInformation(); preloadUniversalImages()">
+	<!--Header container-->
+	<div>
+		<!--Back button-->
+		<span class="backButton"><a href="index.html">&#8592; Back</a></span>
+
+		<!--Social Media links-->
+		<div class="socialMedia">
+			<a href="mailto:jacksontcarroll@gmail.com"><img src="src/img/universal/email.png"></a>
+			<a target="_blank" href="https://www.youtube.com/channel/UCO4yvREmS76Yu8Kh5fO7LJA"><img src="src/img/universal/youtube.png"></a>
+			<a target="_blank" href="https://twitter.com/jacksontcarroll"><img src="src/img/universal/twitter.png"></a>
+			<a target="_blank" href="https://www.instagram.com/jacksontcarroll/"><img src="src/img/universal/instagram.png"></a>
+			<a target="_blank" href="https://www.twitch.tv/spootloops"><img src="src/img/universal/twitch.png"></a>
+			<a target="_blank" href="https://steamcommunity.com/id/spootloops/"><img src="src/img/universal/steam.png"></a>
+			<a target="_blank" href="https://www.chess.com/member/jacksontcarroll"><img src="src/img/universal/chess.png"></a>
+			<a target="_blank" href="https://open.spotify.com/user/spyperson"><img src="src/img/universal/spotify.png"></a>
+			<a target="_blank" href="https://soundcloud.com/jackson-carroll-632234425"><img src="src/img/universal/soundcloud.png"></a>
+		</div>
+
+		<!--Title-->
+		<div class="titleContainer">
+			<span class="title"><a href="#"><span class="themeColor bold">JC</span>ompose.com</a></span>
+			<span class="titleBanner">Games</span>
+		</div>
+	</div>
+
+	<!--Holds game information on click of a game, updated with Javascript using games.txt-->
+	<div id="gamePanel">
+		<div id="gameGif" class="bordered"><img src=""></div>
+		<div id="gameName" class="themeColor"></div>
+		<div id="gameDesc" class=""></div>
+		<div id="gameCodeCreds">Code by <span class="themeColor bold"></span></div>
+		<div id="gameArtCreds">Art by <span class="themeColor bold"></span></div>
+		<div id="gameMusicCreds">Music by <span class="themeColor bold"></span></div>
+		<div id="playButton"><a href="#">PLAY</a></div>
+	</div>
+
+	<!--Games container-->
+	<div class="contentContainer">
+		<!--The list of games, automated via games.js and games.txt-->
+		<div id="gamesList"></div>
+	</div>
+
+	<!-- Copyright -->
+	<div class="copyrightContainer">
+		<div class="copyright"></div>
+	</div>
+
+	<!--Scripts-->
+	<script src="src/scripts/universal.js"></script>
+	<script src="src/scripts/games.js"></script>
+</body>
+</html>

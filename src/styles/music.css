@@ -1,0 +1,48 @@
+/* Styles for music/index.html  */
+
+.titleBanner {
+  background: #568fea;
+}
+
+.themeColor, .backButton:hover {
+  color: #568fea;
+}
+
+.contentContainer {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.songBox {
+  margin: 2%;
+  padding: 0;
+  background: #568fea;
+  border-radius: 5px;
+  border: 3px solid #235cb7;
+  text-align: center;
+}
+
+.songLength {
+  display: block;
+  text-align: right;
+}
+
+.play,
+.download,
+.view {
+  display: block;
+  background: #235cb7;
+  padding: 1%;
+  border-radius: 1px;
+  transition: .1s background ease-out;
+  overflow: visible;
+  font-size: 1em;
+}
+
+.play:hover,
+.download:hover,
+.view:hover {
+  background: #b7235c;
+  cursor: pointer;
+}

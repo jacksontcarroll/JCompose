@@ -1,0 +1,35 @@
+#
+ID AST2
+NAME Asteroids 2
+DESC Asteroids 2 is my first decent game: it features original art and a local high score list.
+CODE JC
+ART JC
+MUSIC ?
+#
+ID POT2
+NAME Potatoman 2
+DESC Potatoman, but with cleaner code, better physics, and built with p5.js. This is my current project!
+CODE JC
+ART Lindsey Cool
+MUSIC N/A
+#
+ID POT
+NAME Potatoman
+DESC A poor exploration of player physics and collision detection- this was before I took a physics class.
+CODE JC
+ART JC, Lindsey Cool
+MUSIC N/A
+#
+ID DIJ
+NAME Dijkstra's Algorithm
+DESC Semi-WIP option for the AP Computer Science Principles project.
+CODE JC
+ART N/A
+MUSIC N/A
+#
+ID MVT
+NAME Floaty Movement
+DESC An experiment in movement physics that led to the improved Potatoman 2 code- might become a game!
+CODE JC
+ART N/A
+MUSIC N/A
