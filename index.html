@@ -2,15 +2,15 @@
 <html>
 <head>
 	<title>JCompose</title>
-	<link rel="stylesheet" type="text/css" href="src/styles/universal.css">
-	<link rel="stylesheet" type="text/css" href="src/styles/index.css">
-	<link rel="icon" href="src/img/index/x-icon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="src/css/universal.css">
+	<link rel="stylesheet" type="text/css" href="src/css/index.css">
+	<link rel="icon" href="src/img/I_x-icon.ico" type="image/x-icon">
 	<meta charset="UTF-8">
 	<meta name="description" content="[JC] Games ~ Music ~ Comedy">
 	<meta name="author" content="Jackson Carroll">
 	<meta name="keywords" content="about, home, jackson, jc, jackson carroll, athena jasman, george carlin, bill burr, chris d'elia, jim jefferies, john mulaney, comics, jokes, music, comedy, games, art, asteroids, potatoman, dijkstra, dijkstra's algorithm, code, jcompose, j compose, portfolio, blog, jackygames, jacky games, shank your nan, super smash bots brawl, ssbb">
-	<script src="src/scripts/jquery-3.2.1.min.js"></script>
-	<script src="src/scripts/universal.js"></script>
+	<script src="src/js/jquery-3.2.1.min.js"></script>
+	<script src="src/js/universal.js"></script>
 	<script>
 		var games = new Image();
 		var music = new Image();
@@ -18,20 +18,12 @@
 		var gamesHover = new Image();
 		var musicHover = new Image();
 		var comedyHover = new Image();
-		games.src = "src/img/index/games.png";
-		music.src = "src/img/index/music.png";
-		comedy.src = "src/img/index/comedy.png";
-		gamesHover.src = "src/img/index/games-hover.gif";
-		musicHover.src = "src/img/index/music-hover.gif";
-		comedyHover.src = "src/img/index/comedy-hover.gif";
-	</script>
-	<!--Ads-->
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script>
-	  (adsbygoogle = window.adsbygoogle || []).push({
-	    google_ad_client: "ca-pub-9644910560270347",
-	    enable_page_level_ads: true
-	  });
+		games.src = "src/img/I_games.png";
+		music.src = "src/img/I_music.png";
+		comedy.src = "src/img/I_comedy.png";
+		gamesHover.src = "src/img/I_games-hover.gif";
+		musicHover.src = "src/img/I_music-hover.gif";
+		comedyHover.src = "src/img/I_comedy-hover.gif";
 	</script>
 </head>
 <body onload="setLastUpdatedInformation(); preloadUniversalImages()">
@@ -42,15 +34,15 @@
 
 		<!--Social Media links-->
 		<div class="socialMedia">
-			<a href="mailto:jacksontcarroll@gmail.com"><img src="src/img/universal/email.png"></a>
-			<a target="_blank" href="https://www.youtube.com/channel/UCO4yvREmS76Yu8Kh5fO7LJA"><img src="src/img/universal/youtube.png"></a>
-			<a target="_blank" href="https://twitter.com/jacksontcarroll"><img src="src/img/universal/twitter.png"></a>
-			<a target="_blank" href="https://www.instagram.com/jacksontcarroll/"><img src="src/img/universal/instagram.png"></a>
-			<a target="_blank" href="https://www.twitch.tv/spootloops"><img src="src/img/universal/twitch.png"></a>
-			<a target="_blank" href="https://steamcommunity.com/id/spootloops/"><img src="src/img/universal/steam.png"></a>
-			<a target="_blank" href="https://www.chess.com/member/jacksontcarroll"><img src="src/img/universal/chess.png"></a>
-			<a target="_blank" href="https://open.spotify.com/user/spyperson"><img src="src/img/universal/spotify.png"></a>
-			<a target="_blank" href="https://soundcloud.com/jackson-carroll-632234425"><img src="src/img/universal/soundcloud.png"></a>
+			<a href="mailto:jacksontcarroll@gmail.com"><img src="src/img/U_email.png"></a>
+			<a target="_blank" href="https://www.youtube.com/channel/UCO4yvREmS76Yu8Kh5fO7LJA"><img src="src/img/U_youtube.png"></a>
+			<a target="_blank" href="https://twitter.com/jacksontcarroll"><img src="src/img/U_twitter.png"></a>
+			<a target="_blank" href="https://www.instagram.com/jacksontcarroll/"><img src="src/img/U_instagram.png"></a>
+			<a target="_blank" href="https://www.twitch.tv/spootloops"><img src="src/img/U_twitch.png"></a>
+			<a target="_blank" href="https://steamcommunity.com/id/spootloops/"><img src="src/img/U_steam.png"></a>
+			<a target="_blank" href="https://www.chess.com/member/jacksontcarroll"><img src="src/img/U_chess.png"></a>
+			<a target="_blank" href="https://open.spotify.com/user/spyperson"><img src="src/img/U_spotify.png"></a>
+			<a target="_blank" href="https://soundcloud.com/jackson-carroll-632234425"><img src="src/img/U_soundcloud.png"></a>
 		</div>
 
 		<!--Title-->
@@ -62,9 +54,9 @@
 	<!--Content container-->
 	<div class="contentContainer">
 		<!--The 3 main links-->
-		<span class="content g"><a href="games.html"><img id="gimg" src="src/img/index/games.png"></a></span>
-		<span class="content m"><a href="music.html"><img id="mimg" src="src/img/index/music.png"></a></span>
-		<span class="content c"><a href="comedy.html"><img id="cimg" src="src/img/index/comedy.png"></a></span>
+		<span class="content g"><a href="games.html"><img id="gimg" src="src/img/I_games.png"></a></span>
+		<span class="content m"><a href="music.html"><img id="mimg" src="src/img/I_music.png"></a></span>
+		<span class="content c"><a href="comedy.html"><img id="cimg" src="src/img/I_comedy.png"></a></span>
 	</div>
 
 	<!--Content descriptor container-->
@@ -81,6 +73,6 @@
 	</div>
 
 	<!--Scripts-->
-	<script src="src/scripts/index.js"></script>
+	<script src="src/js/index.js"></script>
 </body>
 </html>
