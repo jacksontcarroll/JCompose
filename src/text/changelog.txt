@@ -16,3 +16,4 @@
 2.1.5 - 12/25/17 - Fixed functions of the music section, fixed back buttons on games, added music, added 'Movement' game, added <meta> information... went public :)
 2.1.6 - 1/5/18 - Cleaned up some code and file organization
 2.1.7 - 1/19/18 - Added a few requirements for Web Design course
+2.1.8 - 5/27/18 - Added 2 new games and a new song, removed requirements for Web Design course

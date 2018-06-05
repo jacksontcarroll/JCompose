@@ -188,8 +188,8 @@ function Pokemon(name, index, type) {
 	this.numTurnsFrozen = 0;
 	this.numTurnsAsleep = 0;
 	this.numTurnsConfused = 0;
-	this.img = loadImage("src/img/pokemon/"+index+".png");
-	this.backImg = loadImage("src/img/pokemon/back/"+index+".png");
+	this.img = loadImage("../img/pokemon/"+index+".png");
+	this.backImg = loadImage("../img/pokemon/back/"+index+".png");
 
 	this.setup = function() {
 		switch (this.nature) {
@@ -859,7 +859,7 @@ function drawUI() {
 
 // Preload images, initialize arrays
 function preload() {
-	img_ui_background = loadImage("src/img/ui_background.png");
+	img_ui_background = loadImage("../img/PCT_ui_background.png");
 
 	/* Sexes */
 	SEXES = [SEX_MALE, SEX_FEMALE];

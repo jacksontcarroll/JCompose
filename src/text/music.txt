@@ -1,4 +1,8 @@
 #
+ID FUNKES
+NAME Funkes
+VIEW F
+#
 ID REGRET
 NAME Regret
 VIEW T
