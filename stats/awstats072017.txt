@@ -1,0 +1,327 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201707 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2543                
+POS_VISITOR 3299                
+POS_DAY 4236                
+POS_DOMAIN 4517                
+POS_LOGIN 4743                
+POS_ROBOT 4898                
+POS_WORMS 5241                
+POS_EMAILSENDER 5372                
+POS_EMAILRECEIVER 5515                
+POS_SESSION 5591                
+POS_SIDER 5749                
+POS_FILETYPES 5885                
+POS_OS 5991                
+POS_BROWSER 6075                
+POS_SCREENSIZE 6273                
+POS_UNKNOWNREFERER 6347                
+POS_UNKNOWNREFERERBROWSER 6434                
+POS_ORIGIN 6516                
+POS_SEREFERRALS 6649                
+POS_PAGEREFS 6804                
+POS_SEARCHWORDS 6980                
+POS_KEYWORDS 7132                
+POS_MISC 2207                
+POS_ERRORS 7191                
+POS_CLUSTER 4599                
+POS_SIDER_404 7281                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170801012404 255 46099 37076328702
+FirstTime 20170724233152
+LastTime 20170731214330
+LastUpdate 20170816024303 255 0 254 0 0
+TotalVisits 25                  
+TotalUnique 22                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 25                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 3 3 4589
+1 6 6 3822 4 4 5356
+2 0 0 0 3 3 767
+3 0 0 0 6 7 3068
+4 0 0 0 9 9 4602
+5 0 0 0 3 3 5356
+6 6 6 3822 32 45 39845
+7 1 1 0 12 12 10725
+8 1 1 0 7 7 6890
+9 1 1 0 6 6 6890
+10 0 0 0 10 10 10725
+11 0 0 0 4 4 5356
+12 0 1 0 11 11 6136
+13 1 2 7713 4 4 2301
+14 1 1 0 9 9 7657
+15 1 1 0 8 9 5369
+16 2 2 0 2 2 767
+17 1 1 0 4 4 6123
+18 0 0 0 9 9 8424
+19 1 1 0 8 9 6136
+20 1 1 3822 4 5 3068
+21 1 3 7713 11 12 7670
+22 1 2 7713 6 6 3835
+23 2 15 16956 9 9 8424
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 25
+184.154.139.22 3 3 3822 20170729064550
+69.30.250.130 2 2 0 20170726161508
+184.154.36.164 2 2 0 20170731064358
+69.47.91.209 2 16 16956 20170724234310
+52.90.132.138 1 1 3822 20170727013229
+88.99.141.3 1 1 3822 20170730202918
+173.244.48.72 1 1 0 20170729085606
+34.227.92.21 1 1 0 20170725012412
+109.120.161.138 1 1 0 20170728191318
+206.41.175.144 1 1 0 20170727173721
+202.46.55.137 1 1 0 20170729151026
+198.27.85.233 1 1 0 20170730142034
+79.168.231.184 1 1 0 20170731214330
+199.19.104.163 1 1 0 20170726135156
+199.30.24.236 0 1 7713 
+23.28.221.154 1 2 7713 20170729222646
+138.246.253.19 1 1 0 20170727065005
+34.201.174.131 1 1 0 20170728013244
+65.55.210.175 0 1 7713 
+184.154.36.168 1 1 0 20170726063149
+54.234.162.200 1 1 0 20170730012904
+188.165.2.183 1 1 0 20170730090430
+131.253.27.78 0 1 0 
+54.87.207.209 1 1 0 20170731012809
+54.144.215.187 1 1 0 20170726013642
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20170724 2 15 16956 1
+20170725 2 2 0 2
+20170726 5 6 7713 4
+20170727 4 4 3822 4
+20170728 3 4 11535 3
+20170729 4 5 7713 4
+20170730 4 6 3822 4
+20170731 3 3 0 3
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 27 45 51561
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+bot[+:,\.\;\/\\-] 27 11466 20170731124753 0
+googlebot 12 26754 20170731114801 0
+spider 7 11466 20170731064358 0
+yandex 5 0 20170731154759 0
+no_user_agent 2 7644 20170731084438 0
+baiduspider 1 0 20170728010143 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+5mn-15mn 1
+0s-30s 24
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 27 20709 25 25
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+css 1 0 0 0
+png 15 30852 0 0
+html 27 20709 0 0
+js 2 0 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 10
+winxp 1
+winnt 3
+linux 2
+win2008 29
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+firefox28.0 1
+firefox53.0 2
+mozilla 1
+chrome 27
+firefox26.0 1
+firefox51.0 1
+wget 1
+msie9.0 6
+firefox34.0 1
+firefox7.0.1 1
+safari 2
+firefox15.0.1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 15 16
+From1 1 1
+From2 7 7
+From3 2 2
+From4 2 19
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://t.co/UYXpUmNvkc 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 148 112749
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 49
+/ 7 -
+/admin/content/sitetree/ 1 -
+/robots.txt 50 -
+/manager/ 1 -
+/Games/Left/Left.html 1 -
+/.well-known/apple-app-site-association 2 -
+/.well-known/assetlinks.json 2 -
+/codeheart.js 1 -
+/Games/Potatoman/index.html 5 -
+/twitter.js 1 -
+/index.html 1 -
+/stats/ 1 https://www1.ipage.com/controlpanel/VisitorStats.bml
+/wp-admin 1 http://jackygames.com
+/Games/Potatoman2/index.html 1 http://www.google.com/url
+/js/mage/cookies.js 1 -
+/sql/ 1 -
+/Games/SYN/index.html 4 -
+/Games/Left/style.css 1 -
+/Examples/asteroids.png 1 -
+/Old/Other/FollowMe.html 1 -
+/Games/SYN/game.js 1 -
+/Games/Potatoman2/Assets/Other/processing.js 1 http://www.google.com/url
+/phpmyadmin/ 1 -
+/Games/SSBB/Assets/Other/processing.js 1 http://www.google.com/url
+/th1s_1s_a_4o4.html 7 http://www.google.com/url
+/Games/SYN/codeheart.js 1 -
+/Old/index.html 1 -
+/pma/ 1 -
+/Old/Games/Jeopardy/index.html 1 -
+/Games/Potatoman/Key.png 1 -
+/simpla/ 1 -
+/Games/Asteroids2/index.html 11 -
+/Games/Asteroids/codeheart.js 1 -
+/myadmin/ 1 -
+/Examples/SSBB.png 1 -
+/Games/SSBB/index.html 6 -
+/wp-includes/js/quicktags.js 1 -
+/Games/PocketKiwis/processing.js 1 -
+/Games/PocketKiwis/index.html 4 -
+/Games/Asteroids/index.html 9 -
+/Games/codeheart.js 1 http://www.google.com/url
+/index.css 2 http://jackygames.com/index.html
+/phpMyAdmin/ 1 -
+/apple-app-site-association 2 -
+/components/ 1 -
+/admin/ 1 -
+/Old/Games/SYN/index.html 2 -
+/Games/Left/index.html 1 http://www.google.com/url
+/index.js 1 -
+END_SIDER_404

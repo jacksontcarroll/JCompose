@@ -1,79 +1,57 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>JCompose</title>
-	<link rel="stylesheet" type="text/css" href="src/css/universal.css">
-	<link rel="stylesheet" type="text/css" href="src/css/games.css">
-	<link rel="icon" href="src/img/G_x-icon.ico" type="image/x-icon">
-	<meta charset="UTF-8">
-	<meta name="description" content="[JC] Games">
-	<meta name="author" content="Jackson Carroll">
-	<meta name="keywords" content="about, home, jackson, jc, jackson carroll, athena jasman, george carlin, bill burr, chris d'elia, jim jefferies, john mulaney, comics, jokes, music, comedy, games, art, asteroids, potatoman, dijkstra, dijkstra's algorithm, code, jcompose, j compose, portfolio, blog, jackygames, jacky games, shank your nan, super smash bots brawl, ssbb">
-	<script src="src/js/jquery-3.2.1.min.js"></script>
-	<script>
-		$.get("src/text/games.txt", function(data) {
-			var preloadLines = data.split("\n");
-
-			for (i=1; i<preloadLines.length; i+=7) {
-				var id = preloadLines[i].slice(3);
-				var tempImg = new Image();
-				var tempGif = new Image();
-				tempImg.src = "src/img/games/"+id+".png";
-				tempGif.src = "src/img/games/"+id+".gif";
-			}
-		});
-	</script>
-</head>
-<body onload="setLastUpdatedInformation(); preloadUniversalImages()">
-	<!--Header container-->
-	<div>
-		<!--Back button-->
-		<span class="backButton"><a href="index.html">&#8592; Back</a></span>
-
-		<!--Social Media links-->
-		<div class="socialMedia">
-			<a href="mailto:jacksontcarroll@gmail.com"><img src="src/img/U_email.png"></a>
-			<a target="_blank" href="https://www.youtube.com/channel/UCO4yvREmS76Yu8Kh5fO7LJA"><img src="src/img/U_youtube.png"></a>
-			<a target="_blank" href="https://twitter.com/jacksontcarroll"><img src="src/img/U_twitter.png"></a>
-			<a target="_blank" href="https://www.instagram.com/jacksontcarroll/"><img src="src/img/U_instagram.png"></a>
-			<a target="_blank" href="https://www.twitch.tv/spootloops"><img src="src/img/U_twitch.png"></a>
-			<a target="_blank" href="https://steamcommunity.com/id/spootloops/"><img src="src/img/U_steam.png"></a>
-			<a target="_blank" href="https://www.chess.com/member/jacksontcarroll"><img src="src/img/U_chess.png"></a>
-			<a target="_blank" href="https://open.spotify.com/user/spyperson"><img src="src/img/U_spotify.png"></a>
-			<a target="_blank" href="https://soundcloud.com/jackson-carroll-632234425"><img src="src/img/U_soundcloud.png"></a>
-		</div>
-
-		<!--Title-->
-		<div class="titleContainer">
-			<span class="title"><a href="#"><span class="themeColor bold">JC</span>ompose.com</a></span>
-			<span class="titleBanner">Games</span>
-		</div>
-	</div>
-
-	<!--Holds game information on click of a game, updated with Javascript using games.txt-->
-	<div id="gamePanel">
-		<div id="gameGif" class="bordered"><img src=""></div>
-		<div id="gameName" class="themeColor"></div>
-		<div id="gameDesc" class=""></div>
-		<div id="gameCodeCreds">Code by <span class="themeColor bold"></span></div>
-		<div id="gameArtCreds">Art by <span class="themeColor bold"></span></div>
-		<div id="gameMusicCreds">Music by <span class="themeColor bold"></span></div>
-		<div id="playButton"><a href="#">PLAY</a></div>
-	</div>
-
-	<!--Games container-->
-	<div class="contentContainer">
-		<!--The list of games, automated via games.js and games.txt-->
-		<div id="gamesList"></div>
-	</div>
-
-	<!-- Copyright -->
-	<div class="copyrightContainer">
-		<div class="copyright"></div>
-	</div>
-
-	<!--Scripts-->
-	<script src="src/js/universal.js"></script>
-	<script src="src/js/games.js"></script>
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Games</title>
+    <link rel="stylesheet" href="S/index.css">
+    <link rel="shortcut icon" href="S/x-icon.ico">
+  </head>
+  <body>
+    <div class="header">
+      JCompose.com <span>Minimalism Update</span>
+    </div>
+    <hr>
+    <div class="links">
+      <span><a href="index.html">Home</a></span>
+      <span><a href="games.html">Games</a></span>
+      <span><a href="music.html">Music</a></span>
+      <span><a href="about.html">About</a></span>
+    </div>
+    <hr>
+    <div class="gameContent">
+      <span class="gameContainer">
+        <span class="gameTitle"><a href="G/MVT/index.html">Shooty game</a></span>
+        <span class="gameImg"><a href="G/MVT/index.html"><img src="G/MVT/Logo.png"></a></span>
+        <span class="gameDescription">A fun, semi-addictive game about how many lasers you can shoot without getting hit.</span>
+      </span>
+      <span class="gameContainer">
+        <span class="gameTitle"><a href="G/AST2/index.html">Asteroids II</a></span>
+        <span class="gameImg"><a href="G/AST2/index.html"><img src="G/AST2/Logo.png"></a></span>
+        <span class="gameDescription">The pretty good sequel to Asteroids-- still a WIP, high score list coming soon...?</span>
+      </span>
+      <span class="gameContainer">
+        <span class="gameTitle"><a href="G/POT2/index.html">Potatoman II</a></span>
+        <span class="gameImg"><a href="G/POT2/index.html"><img src="G/POT2/Logo.png"></a></span>
+        <span class="gameDescription">This is the first time I made a good movement system, and I might still meddle with it. I'll be adding more levels very soon!</span>
+      </span>
+      <span class="gameContainer">
+        <span class="gameTitle"><a href="G/PCT/index.html">Pokemon Simulator</a></span>
+        <span class="gameImg"><a href="G/PCT/index.html"><img src="G/PCT/Logo.png"></a></span>
+        <span class="gameDescription">This was my AP Computer Science Principles "Create Performance Task," and though I had to cut corners, I did try to implement many of the same systems as the original Pokemon games.</span>
+      </span>
+      <span class="gameContainer">
+        <span class="gameTitle"><a href="G/POT/index.html">Potatoman</a></span>
+        <span class="gameImg"><a href="G/POT/index.html"><img src="G/POT/Logo.png"></a></span>
+        <span class="gameDescription">So bad it's good! It has much worse movement than Potatoman II, but it was the first platformer I was ever actually able to program.</span>
+      </span>
+      <span class="gameContainer">
+        <span class="gameTitle"><a href="G/DIJ/index.html">Dijkstra's Algorithm</a></span>
+        <span class="gameImg"><a href="G/DIJ/index.html"><img src="G/DIJ/Logo.png"></a></span>
+        <span class="gameDescription">An implementation of Dijkstra's algorithm to find the shortest path between 2 nodes. This was a contender to be my AP CSP Create PT. Press space to advance.</span>
+      </span>
+    </div>
+    <div class="footer">
+      <span>&copy JCompose 2019</span>
+    </div>
+  </body>
 </html>

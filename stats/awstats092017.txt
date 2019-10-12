@@ -1,0 +1,597 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201709 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2535                
+POS_VISITOR 11299               
+POS_DAY 17068               
+POS_DOMAIN 3246                
+POS_LOGIN 3475                
+POS_ROBOT 3630                
+POS_WORMS 4302                
+POS_EMAILSENDER 4433                
+POS_EMAILRECEIVER 4576                
+POS_SESSION 17771               
+POS_SIDER 17972               
+POS_FILETYPES 4711                
+POS_OS 4779                
+POS_BROWSER 4917                
+POS_SCREENSIZE 5284                
+POS_UNKNOWNREFERER 5358                
+POS_UNKNOWNREFERERBROWSER 5847                
+POS_ORIGIN 6221                
+POS_SEREFERRALS 6359                
+POS_PAGEREFS 6516                
+POS_SEARCHWORDS 7028                
+POS_KEYWORDS 7180                
+POS_MISC 2199                
+POS_ERRORS 7239                
+POS_CLUSTER 3331                
+POS_SIDER_404 7373                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171001005138 1207 217097 12918418618
+FirstTime 0
+LastTime 20170930213609
+LastUpdate 20171001022936 1207 1159 47 0 0
+TotalVisits 252                 
+TotalUnique 156                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 156                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 7 5193 30 30 25979
+1 7 7 4209 27 27 21496
+2 4 4 1810 32 32 23441
+3 2 2 0 20 20 15683
+4 13 13 8684 28 34 24946
+5 9 9 5272 30 31 24248
+6 42 42 16224 87 87 59576
+7 4 4 1679 36 36 27579
+8 12 12 7987 28 28 19643
+9 7 7 6048 16 18 13813
+10 8 8 4288 27 27 20191
+11 3 3 1758 20 21 16286
+12 11 11 3383 40 40 30131
+13 16 16 9508 55 56 40807
+14 17 17 12302 28 28 19886
+15 8 8 3541 25 25 20282
+16 9 9 5272 22 22 16876
+17 7 7 5220 28 28 17142
+18 15 15 8788 29 31 22106
+19 5 5 826 24 24 18296
+20 4 4 2505 36 36 28360
+21 40 40 29246 76 76 61079
+22 4 4 2478 28 28 23264
+23 18 18 13319 27 27 22549
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 272 272 159540
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+no_user_agent 50 35610 20170930184947 0
+bot[+:,\.\;\/\\-] 49 25116 20170930021652 0
+googlebot 38 14626 20170929165420 0
+spider 30 15581 20170930063140 0
+robot 10 6820 20170930150327 0
+crawl 9 6046 20170930183243 0
+baiduspider 8 5141 20170930195425 0
+yandex 7 2636 20170930074819 0
+python 6 905 20170918071817 0
+surveybot 4 2557 20170930072912 0
+ia_archiver 1 905 20170917195941 0
+seznambot 3 2505 20170927022434 0
+mail\.ru 2 1810 20170911080851 0
+phantom 1 826 20170919002152 0
+mj12bot 4 1810 20170910202631 0
+nutch 1 905 20170905230854 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 272 159540 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winxp 16
+winlong 4
+unix 9
+winnt 54
+linux 36
+winvista 2
+macosx 28
+win2003 2
+Unknown 12
+win2008 109
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 25
+firefox50.0 2
+msie6.0 2
+firefox32.0 1
+chrome 139
+firefox26.0 1
+opera 2
+firefox55.0 1
+firefox29.0 1
+firefox54.0 1
+firefox49.0 2
+firefox30.0 5
+firefox24.0 2
+msie8.0 1
+firefox6.0.2 3
+mozilla 15
+msie7.0 2
+firefox23.0 1
+firefox40.1 2
+msie10.0 2
+firefox51.0 1
+firefox3.6.3 2
+msie9.0 64
+Unknown 9
+safari 10
+firefox15.0.1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170917135751
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170905132226
+ltx71_-_(http://ltx71.com/) 20170911090730
+Mozilla/5.0_(compatible;_ips-agent) 20170917041459
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~buzzstream-tools-hrd) 20170909121510
+panscient.com 20170928192518
+856 20170928135037
+redback/v0-570-g26f8c96 20170907055659
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170917135751
+ltx71_-_(http://ltx71.com/) 20170911090730
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~buzzstream-tools-hrd) 20170909121510
+panscient.com 20170928192518
+856 20170928135037
+redback/v0-570-g26f8c96 20170907055659
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 168 168
+From1 5 5
+From2 65 65
+From3 28 28
+From4 6 6
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 65 65
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+http://l.instagram.com 7 7
+http://jcompose.com 4 4
+http://www.marinetraffic.com 4 4
+https://3w24.com 4 4
+http://pizza-tycoon.com 1 1
+https://www.youtube.com 1 1
+http://m.facebook.com 1 1
+http://www.jcompose.com 1 1
+http://burger-imperia.com 1 1
+http://filesearch.eu/webmasters 1 1
+http://wp.jcompose.com 1 1
+https://t.co/qIaDco6wkv 1 1
+https://l.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+206 4 3462
+405 1 228
+406 18 4682
+407 4 1660
+404 562 479828
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 107
+/blog/wp-includes/wlwmanifest.xml 1 -
+/view-bd-studio-games-release-new-game_2.html 2 -
+/Examples/maxadventure.png 3 -
+/sitemap.xml 2 -
+/SrcCode/ 1 -
+/ 7 -
+/robots.txt 239 -
+/wordpress/ 1 -
+/browser-online-marble-popper_18-1.html 1 -
+/admin.php 6 -
+/wp-content/plugins/wp-mobile-detector/resize.php 1 -
+/.well-known/apple-app-site-association 9 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/browser-pc-large-file_20-1.html 2 -
+/HTML/Potatoman/index.html 3 -
+/HTML/Jeopardy/index.html 4 -
+/browser-online-mahjong_3-1.html 2 -
+/Programs/ 1 -
+/wp-admin/ 5 http://jackygames.com/wp-login.php
+/browser-online-strategy_29-1.html 2 -
+/Jeopardy/ 2 -
+/HTML/Random-Music/index.html 3 -
+/xmlrpc.php 3 -
+/Games/SYN/index.html 3 -
+/Asteroids/ 1 -
+/mambots/editors/fckeditor/editor/filemanager/upload/php/upload.php 1 jackygames.com/mambots/editors/fckeditor/editor/filemanager/upload/php/upload.php
+/browser-pc-card-board_5-1.html 2 -
+/Old/Other/FollowMe.html 2 -
+/.index.php 1 -
+/Games/Nan-Shank/index.html 3 -
+/th1s_1s_a_4o4.html 60 http://www.google.com/url
+/wp-content/plugins/wp-mobile-detector/cache/shell.php 1 -
+/Old/Games/Jeopardy/index.html 3 -
+/download-dark-ritual_b-pc-12193-en.html 2 -
+/Games/Asteroids2/index.html 2 -
+/Programs/Rave_Time/ 1 -
+/Games/SSBB/index.html 19 -
+/HTML/Buttons/morebuttons.html 3 -
+/administrator/ 6 -
+/Programs/Rave-Time/index.html 1 -
+/wp-login.php 7 -
+/LICENSE.php 2 -
+/Old/Games/Buttons/index.html 2 -
+/browser-online-brain-teaser_19-1.html 1 -
+/Games/Left/index.html 5 -
+/Programs 1 -
+/browser-online-card-board_5-1.html 3 -
+/HTML/AsteroidsTwo/index.html 3 -
+/browser-mac-new-release_0-1.html 3 -
+/Games/Left/Left.html 1 -
+/download-dark-ritual_b-mac-12190-en.html 2 -
+/Dev/Games/PocketKiwis/index.html 1 -
+/download-hexus_b-mac-12147-en.html 4 -
+/.well-known/assetlinks.json 8 -
+/browser-mac-marble-popper_18-1.html 2 -
+/Games/Potatoman/index.html 4 -
+/browser-mac-card-board_5-1.html 2 -
+/browser-pc-new-release_0-1.html 1 -
+/browser-online-time-management_25-1.html 2 -
+/krd.txt 1 -
+/browser-mac-large-file_20-1.html 2 -
+/wp-includes/wlwmanifest.xml 2 -
+/index.php/component/users/ 2 -
+/blog/ 1 -
+/HTML/Buttons/index.html 3 -
+/license.txt 2 -
+/about.html 2 -
+/wp/ 1 -
+/Games/Potatoman2/index.html 3 -
+/Nan-Shank/ 1 -
+/js/mage/cookies.js 1 jcompose.com
+/cms/wp-includes/wlwmanifest.xml 1 -
+/view-allora-and-the-broken-portal-walkthrough_5.html 2 -
+/download-atlantic-quest_b-mac-12253-en.html 2 -
+/browser-pc-brain-teaser_19-1.html 2 -
+/Dev/index.html 1 -
+/Old/Games/Asteroids/index.html 2 -
+/Games/Buttons/index.html 1 -
+/blog/robots.txt 1 -
+/HTML/Asteroids/index.html 3 -
+/browser-mac-arcade-action_1-1.html 1 -
+/Old/index.html 1 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/browser-pc-arcade-action_1-1.html 1 -
+/HTML/Rave-Time/index.html 3 -
+/administrator/index.php 6 http://jackygames.com/administrator/
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/browser-online-large-file_20-1.html 2 -
+/admin 5 -
+/download-magical-mysteries-path-of-the-sorceress_b-pc-12283-en.html 1 -
+/browser-online-adventure_21-1.html 2 -
+/download-maestro-music-of-death-collector-s-edition_b-mac-11870-en.html 2 -
+/Games.html 1 -
+/download-hallowed-legends-samhain_b-mac-11953-en.html 3 -
+/Old/Games/Potatoman/index.html 1 -
+/Games/Asteroids/index.html 4 -
+/Games/PocketKiwis/index.html 2 -
+/index.php 1 -
+/browser-online-match-3_17-1.html 2 -
+/browser-online-hidden-object_15-1.html 2 -
+/Reviews.html 1 -
+/Games/Jeopardy/index.html 1 -
+/browser-online-new-release_0-1.html 2 -
+/apple-app-site-association 8 -
+/Old/Games/SYN/index.html 1 -
+/HTML/Nan-Shank/index.html 3 -
+/browser-mac-hidden-object_15-1.html 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 156
+184.154.139.22 20 20 11135 20170930063139
+69.89.103.28 18 18 15527 20170929140634
+184.154.36.167 13 13 8682 20170930213609
+184.154.36.168 11 11 8709 20170923213907
+69.47.91.209 9 9 7404 20170926005441
+184.154.36.166 8 8 4236 20170929213506
+184.154.36.164 8 8 5062 20170924213758
+138.246.253.19 7 7 0 20170928232022
+66.102.6.153 4 4 3541 20170918230211
+45.76.31.146 4 4 3412 20170904093606
+35.193.153.123 1 1 905 20170911090730
+54.215.143.230 1 1 0 20170902061328
+211.0.145.104 1 1 905 20170911051427
+202.46.54.22 1 1 826 20170930015845
+104.200.40.102 1 1 0 20170911201913
+69.58.178.56 2 2 905 20170917041459
+166.137.14.128 1 1 826 20170927165234
+209.99.141.198 1 1 0 20170903181224
+202.46.52.156 1 1 905 20170908103553
+100.35.47.77 2 2 826 20170928192518
+139.227.145.214 1 1 0 20170911124931
+163.172.162.106 1 1 0 20170909060501
+139.227.145.45 1 1 0 20170924042435
+209.95.184.236 1 1 826 20170919130756
+198.240.122.151 1 1 826 20170920134653
+202.46.50.91 1 1 0 20170907105034
+95.85.58.9 1 1 0 20170915135422
+52.38.8.0 1 1 853 20170903202413
+35.46.64.182 1 1 0 20170912210040
+35.196.145.194 1 1 826 20170922065409
+202.46.57.122 1 1 826 20170926101945
+38.100.21.66 1 1 0 20170916084022
+203.133.170.165 1 1 0 20170917031517
+202.46.52.111 1 1 905 20170909183552
+81.138.72.149 1 1 853 20170903234902
+37.17.227.155 1 1 905 20170914043833
+183.87.114.130 1 1 0 20170923045509
+203.217.240.193 1 1 0 20170905035258
+202.46.58.203 1 1 0 20170908061849
+54.160.122.176 1 1 0 20170909044840
+52.144.37.215 1 1 853 20170903235639
+131.161.10.239 1 1 826 20170927234835
+104.207.150.177 2 2 905 20170921070347
+202.46.52.17 1 1 826 20170926125515
+202.46.52.105 1 1 826 20170920213126
+5.188.62.85 1 1 826 20170922124559
+51.255.51.144 1 1 0 20170903121643
+66.102.6.106 1 1 905 20170913145414
+38.100.21.69 1 1 826 20170918224830
+64.62.197.81 1 1 826 20170918130516
+13.85.24.117 1 1 905 20170912055015
+23.254.201.189 1 1 826 20170925105336
+107.15.22.58 1 1 0 20170927212416
+35.40.102.159 1 1 905 20170906012646
+192.187.101.194 1 1 0 20170920170828
+139.227.145.94 1 1 853 20170903181856
+109.236.8.10 1 1 0 20170907055659
+35.40.100.195 1 1 826 20170929231904
+139.227.144.134 1 1 826 20170918060654
+202.46.53.158 1 1 905 20170917232653
+159.203.81.163 2 2 0 20170905195910
+80.251.163.226 2 2 0 20170914051518
+213.181.83.239 4 4 1758 20170913100133
+131.161.10.208 1 1 826 20170918223634
+62.149.1.74 1 1 0 20170912182230
+185.86.77.38 2 2 826 20170919055428
+192.99.67.13 1 1 905 20170907054838
+74.82.60.65 1 1 905 20170914081139
+208.94.227.95 1 1 905 20170908140228
+35.50.26.250 1 1 826 20170920182409
+188.163.78.13 1 1 0 20170915123617
+64.53.184.21 1 1 905 20170910151604
+202.46.58.80 1 1 905 20170917083404
+131.161.8.218 1 1 826 20170926230851
+107.178.194.204 1 1 0 20170909121510
+202.46.49.65 1 1 826 20170926053531
+63.250.14.96 1 1 0 20170914132430
+198.177.118.147 1 1 826 20170922040812
+202.46.52.107 1 1 826 20170928172419
+54.165.118.129 1 1 0 20170920064453
+166.170.0.118 1 1 826 20170920182354
+121.169.194.188 1 1 0 20170909005455
+52.49.184.96 1 1 905 20170906022656
+104.192.74.38 1 1 905 20170916183342
+110.88.44.29 1 1 905 20170906144743
+35.32.202.164 1 1 905 20170907135407
+148.62.14.156 2 2 1810 20170910175320
+206.41.181.52 1 1 853 20170904172032
+35.196.220.201 1 1 0 20170927233236
+66.249.88.44 1 1 905 20170908082109
+216.218.134.12 1 1 0 20170910055456
+202.46.56.201 1 1 905 20170915043023
+77.220.213.169 1 1 0 20170906212556
+185.195.26.162 1 1 905 20170909184918
+192.99.12.88 1 1 0 20170908223242
+66.102.6.154 3 3 2715 20170917235559
+82.80.249.214 1 1 826 20170920120415
+212.83.158.95 2 2 1810 20170915180653
+108.73.119.188 1 1 853 20170903132531
+202.46.49.196 1 1 826 20170919014830
+13.58.222.211 1 1 826 20170926202405
+202.46.49.139 1 1 0 20170912111919
+195.22.127.175 1 1 905 20170906020914
+66.102.6.110 1 1 826 20170926005719
+64.53.222.202 3 3 2584 20170930012727
+202.46.49.192 1 1 0 20170911080056
+202.46.50.84 1 1 0 20170915152708
+68.48.165.97 1 1 826 20170927010705
+109.236.8.6 1 1 905 20170907055659
+202.46.55.135 1 1 905 20170906044544
+216.19.213.74 1 1 905 20170915124521
+52.202.16.29 2 2 0 20170924145829
+54.160.243.34 1 1 0 20170919193942
+108.61.166.195 4 4 3412 20170905045957
+108.61.117.183 4 4 1706 20170905061326
+74.82.60.62 1 1 905 20170913135348
+35.40.102.224 1 1 905 20170905230959
+158.69.2.15 1 1 905 20170911060644
+104.192.74.35 1 1 826 20170920221744
+94.23.171.176 1 1 0 20170912182440
+66.249.88.46 2 2 1810 20170907080644
+45.32.130.173 1 1 853 20170904113502
+35.160.162.107 1 1 905 20170914144051
+18.221.103.128 1 1 0 20170926211020
+62.210.111.21 1 1 826 20170928213459
+54.72.209.70 1 1 0 20170905130211
+104.238.248.15 1 1 905 20170913164223
+202.46.52.75 1 1 0 20170915064800
+54.165.254.159 1 1 0 20170917143301
+179.61.190.203 1 1 826 20170923190327
+107.173.2.151 1 1 826 20170928162819
+54.154.2.125 1 1 826 20170925041608
+34.212.208.119 1 1 0 20170914155110
+158.69.229.69 1 1 0 20170908080303
+188.226.129.55 1 1 0 20170922150029
+202.46.49.69 1 1 905 20170906090416
+202.46.51.193 1 1 826 20170924202915
+88.99.2.215 2 2 905 20170911182410
+158.69.225.33 1 1 0 20170905132226
+202.46.58.17 1 1 0 20170918162133
+35.196.155.101 1 1 826 20170927230223
+66.70.148.40 1 1 826 20170928135037
+167.114.55.120 1 1 826 20170923171606
+207.174.251.27 1 1 905 20170906214527
+66.102.6.152 1 1 905 20170913085349
+202.46.49.157 1 1 0 20170922213111
+220.181.51.77 1 1 905 20170916180233
+202.46.58.132 1 1 0 20170920015619
+191.96.191.212 1 1 0 20170914011955
+202.46.58.75 1 1 0 20170924073431
+54.229.234.235 1 1 0 20170921161205
+34.227.81.8 1 1 0 20170928122352
+172.82.184.162 1 1 826 20170930072352
+216.19.217.22 1 1 826 20170925150838
+188.226.131.122 1 1 905 20170917135751
+52.50.188.4 1 1 826 20170919214806
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170901 2 2 853 2
+20170902 3 3 1706 3
+20170903 11 11 6824 10
+20170904 9 9 6824 6
+20170905 21 21 11619 12
+20170906 15 15 12670 15
+20170907 14 14 8145 13
+20170908 11 11 6335 10
+20170909 9 9 3620 9
+20170910 7 7 4525 6
+20170911 10 10 4525 10
+20170912 7 7 2715 7
+20170913 11 11 5430 10
+20170914 10 10 4525 10
+20170915 12 12 7240 10
+20170916 6 6 4525 6
+20170917 9 9 5430 9
+20170918 12 12 9165 11
+20170919 10 10 5782 10
+20170920 11 11 6608 11
+20170921 6 6 2478 6
+20170922 9 9 3304 9
+20170923 5 5 3304 5
+20170924 6 6 1652 6
+20170925 5 5 4130 5
+20170926 11 11 8260 11
+20170927 10 10 5782 10
+20170928 10 10 4956 10
+20170929 5 5 3304 5
+20170930 5 5 3304 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+0s-30s 245
+30s-2mn 1
+2mn-5mn 1
+15mn-30mn 3
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 272 159540 252 252
+END_SIDER

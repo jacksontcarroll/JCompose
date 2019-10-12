@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* Universal and index.html styles */
+
+html, * {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: "Raleway", Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+hr {
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+time {
+  background: #CCC;
+  padding: 3px;
+  border: 1px solid #BBB;
+  border-radius:2px;
+  color: white;
+  vertical-align: middle;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  transition: .05s filter ease-out;
+}
+
+img:hover {
+  filter: brightness(0.75);
+}
+
+.header {
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.header span {
+  background: #CCC;
+  padding: 3px;
+  border: 1px solid #BBB;
+  border-radius:2px;
+  font-size: 0.3em;
+  color: white;
+  vertical-align: middle;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links span {
+  padding: 10px;
+}
+
+.links span:hover {
+  color: dimgrey;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.updates span {
+  border: 1px solid #BBB;
+  border-radius: 3px;
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  padding: 10px;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* game.html styles */
+
+.gameContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gameContainer {
+  margin: 40px;
+  width: 256px;
+}
+
+.gameTitle {
+  display: block;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.gameImg img {
+  border: 1px solid dimgrey;
+  width: 256px;
+}
+
+.gameDescription {
+  text-align: left;
+  display: block;
+}
+
+/* music.html styles */
+
+.musicContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.musicContainer {
+  margin: 40px;
+  width: 256px;
+}
+
+.musicTitle {
+  display: block;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.musicControls {
+  display: flex;
+  margin: 5px 0px;
+}
+
+.musicDescription {
+  margin-top: 10px;
+  text-align: left;
+  display: block;
+}
+
+/* about.html styles */
+
+ol {
+  margin-left: 40px;
+  color: dimgrey;
+}
+
+li {
+  text-align: left;
+  color: inherit;
+}
+
+.aboutContent {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+
+.aboutQuestion {
+  font-size: 2em;
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.aboutAnswer {
+  color: dimgrey;
+  display: block;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.aboutSocials {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.aboutSocials span {
+  margin: 5px;
+}
+
+.aboutSocials span img {
+  width: 64px;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, * {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: "Raleway", Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.backButton {
+  text-align: left;
+  margin: 10px;
+  display: block;
+}
+
+canvas {
+  border: 1px solid dimgrey;
+}

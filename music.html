@@ -1,52 +1,122 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>JCompose</title>
-	<link rel="stylesheet" type="text/css" href="src/css/universal.css">
-	<link rel="stylesheet" type="text/css" href="src/css/music.css">
-	<link rel="icon" href="src/img/M_x-icon.ico" type="image/x-icon">
-	<meta charset="UTF-8">
-	<meta name="description" content="[JC] Music">
-	<meta name="author" content="Jackson Carroll">
-	<meta name="keywords" content="about, home, jackson, jc, jackson carroll, athena jasman, george carlin, bill burr, chris d'elia, jim jefferies, john mulaney, comics, jokes, music, comedy, games, art, asteroids, potatoman, dijkstra, dijkstra's algorithm, code, jcompose, j compose, portfolio, blog, jackygames, jacky games, shank your nan, super smash bots brawl, ssbb">
-	<script src="src/js/jquery-3.2.1.min.js"></script>
-</head>
-<body onload="setLastUpdatedInformation(); preloadUniversalImages()">
-	<!--Header container-->
-	<div>
-		<!--Back button-->
-		<span class="backButton"><a href="index.html">&#8592; Back</a></span>
-
-		<!--Social Media links-->
-		<div class="socialMedia">
-			<a href="mailto:jacksontcarroll@gmail.com"><img src="src/img/U_email.png"></a>
-			<a target="_blank" href="https://www.youtube.com/channel/UCO4yvREmS76Yu8Kh5fO7LJA"><img src="src/img/U_youtube.png"></a>
-			<a target="_blank" href="https://twitter.com/jacksontcarroll"><img src="src/img/U_twitter.png"></a>
-			<a target="_blank" href="https://www.instagram.com/jacksontcarroll/"><img src="src/img/U_instagram.png"></a>
-			<a target="_blank" href="https://www.twitch.tv/spootloops"><img src="src/img/U_twitch.png"></a>
-			<a target="_blank" href="https://steamcommunity.com/id/spootloops/"><img src="src/img/U_steam.png"></a>
-			<a target="_blank" href="https://www.chess.com/member/jacksontcarroll"><img src="src/img/U_chess.png"></a>
-			<a target="_blank" href="https://open.spotify.com/user/spyperson"><img src="src/img/U_spotify.png"></a>
-			<a target="_blank" href="https://soundcloud.com/jackson-carroll-632234425"><img src="src/img/U_soundcloud.png"></a>
-		</div>
-
-		<!--Title-->
-		<div class="titleContainer">
-			<span class="title"><a href="#"><span class="themeColor bold">JC</span>ompose.com</a></span>
-			<span class="titleBanner">Music</span>
-		</div>
-	</div>
-
-	<!--Music container-->
-	<span id="musicContainer"></span>
-
-	<!--Copyright-->
-	<div class="copyrightContainer">
-		<div class="copyright"></div>
-	</div>
-
-	<!--Scripts-->
-	<script src="src/js/universal.js"></script>
-	<script src="src/js/music.js"></script>
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Music</title>
+    <link rel="stylesheet" href="S/index.css">
+    <link rel="shortcut icon" href="S/x-icon.ico">
+  </head>
+  <body>
+    <div class="header">
+      JCompose.com <span>Minimalism Update</span>
+    </div>
+    <hr>
+    <div class="links">
+      <span><a href="index.html">Home</a></span>
+      <span><a href="games.html">Games</a></span>
+      <span><a href="music.html">Music</a></span>
+      <span><a href="about.html">About</a></span>
+    </div>
+    <hr>
+    <div class="musicContent">
+      <span class="musicContainer">
+        <span class="musicTitle">Soup</span>
+        <span class="musicControls"><audio controls src="M/Soup.wav" type="audio/wav"></span>
+        <span class="musicDescription">Soup, like the kind you drink when you're sick!</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">BBallad</span>
+        <span class="musicControls"><audio controls src="M/BasketBallad.wav" type="audio/wav"></span>
+        <span class="musicDescription">Neat-o!</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Waiting Loop</span>
+        <span class="musicControls"><audio controls src="M/WaitingLoop.wav" type="audio/wav"></span>
+        <span class="musicDescription">Very basic loop that I think would sound good in a videogame loading screen.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Aether</span>
+        <span class="musicControls"><audio controls src="M/Aether.wav" type="audio/wav"></span>
+        <span class="musicDescription">Wish this could've been a longer song, but I ran out of steam on it.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Geosmin</span>
+        <span class="musicControls"><audio controls src="M/Geosmin.wav" type="audio/wav"></span>
+        <span class="musicDescription">Geosmin is the chemical compound that we can smell when it rains.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Ambient [DEMO]</span>
+        <span class="musicControls"><audio controls src="M/AmbientDemo.wav" type="audio/wav"></span>
+        <span class="musicDescription">I wanted to experiment with ambient sounds and create a 'texture' more than a definite melody.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Christmas</span>
+        <span class="musicControls"><audio controls src="M/Christmas.wav" type="audio/wav"></span>
+        <span class="musicDescription">This song was supposed to be a Christmas present [about Christmas], but I couldn't finish it in time.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Spelunking Ambience</span>
+        <span class="musicControls"><audio controls src="M/SpelunkingAmbience.wav" type="audio/wav"></span>
+        <span class="musicDescription">Get ready for Spelunking the videogame available April 1st 2035.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Spelunking [NES]</span>
+        <span class="musicControls"><audio controls src="M/SpelunkingNES.wav" type="audio/wav"></span>
+        <span class="musicDescription">I tried to take an existing song, Spelunking, and add in a bunch of Redux effects and bitcrushed instruments to change the tone of it.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Spelunking</span>
+        <span class="musicControls"><audio controls src="M/Spelunking.wav" type="audio/wav"></span>
+        <span class="musicDescription">Though repetitive, I like this song for what it is--  I wanted to use 2 chords to make something that sounded 'epic.'</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">2sec</span>
+        <span class="musicControls"><audio controls src="M/2sec.wav" type="audio/wav"></span>
+        <span class="musicDescription">This song is a slow piano piece, with humming by the great Jenna Ellis.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Mitnick</span>
+        <span class="musicControls"><audio controls src="M/Mitnick.wav" type="audio/wav"></span>
+        <span class="musicDescription">This song is inspired by Kevin Mitnick, and is the first time I used heavy automation in a song.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Ghost in the Garbage</span>
+        <span class="musicControls"><audio controls src="M/GhostGarbage.wav" type="audio/wav"></span>
+        <span class="musicDescription">This is a pretty swingin' beat, right fellas?</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Funkes 2</span>
+        <span class="musicControls"><audio controls src="M/Funkes2.wav" type="audio/wav"></span>
+        <span class="musicDescription">I was kind of at a loss for how to start using Ableton, so I tried to emulate something I already made (Funkes).</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Funkes</span>
+        <span class="musicControls"><audio controls src="M/Funkes.mp3" type="audio/mp3"></span>
+        <span class="musicDescription">This song was my final project senior year for AP Computer Science Principles. I used EarSketch, which is why it's named Funk<u>ES</u>.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Athena</span>
+        <span class="musicControls"><audio controls src="M/Athena.mp3" type="audio/mp3"></span>
+        <span class="musicDescription">I composed this for my lovely girlfriend Athena. I worked really hard to try to come up with interesting and varied chords, but since I didn't / don't know how stringed instruments work, it's physically impossible to play it.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Regret</span>
+        <span class="musicControls"><audio controls src="M/Regret.mp3" type="audio/mp3"></span>
+        <span class="musicDescription">I called it Regret because I liked thinking of the strong piano hits after such long sustains as pangs of guilt and regret; as time progresses, the feeling of regret fades, like in real life.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Slow waltz</span>
+        <span class="musicControls"><audio controls src="M/Slow waltz.mp3" type="audio/mp3"></span>
+          <span class="musicDescription">This was one of the first things I wrote, and the first time I tried including a new instrument every few bars.</span>
+      </span>
+      <span class="musicContainer">
+        <span class="musicTitle">Toddler</span>
+        <span class="musicControls"><audio controls src="M/Toddler.mp3" type="audio/mp3"></span>
+        <span class="musicDescription">This song was my band final project in sophomore year of high school. I don't really like it anymore, but I include it here because it's the oldest thing I can find that I've written.</span>
+      </span>
+    </div>
+    <div class="footer">
+      <span>&copy JCompose 2019</span>
+    </div>
+  </body>
 </html>

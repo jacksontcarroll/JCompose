@@ -1,0 +1,703 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201708 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2548                
+POS_VISITOR 14589               
+POS_DAY 21194               
+POS_DOMAIN 3295                
+POS_LOGIN 3524                
+POS_ROBOT 3719                
+POS_WORMS 4415                
+POS_EMAILSENDER 4546                
+POS_EMAILRECEIVER 4689                
+POS_SESSION 21925               
+POS_SIDER 22126               
+POS_FILETYPES 4824                
+POS_OS 4942                
+POS_BROWSER 5089                
+POS_SCREENSIZE 5589                
+POS_UNKNOWNREFERER 5663                
+POS_UNKNOWNREFERERBROWSER 6421                
+POS_ORIGIN 6944                
+POS_SEREFERRALS 7083                
+POS_PAGEREFS 7240                
+POS_SEARCHWORDS 8067                
+POS_KEYWORDS 8219                
+POS_MISC 2212                
+POS_ERRORS 8278                
+POS_CLUSTER 3380                
+POS_SIDER_404 8400                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170901005114 1364 243511 43431650962
+FirstTime 20170801064143
+LastTime 20170831213517
+LastUpdate 20170901023655 1364 1332 31 0 0
+TotalVisits 293                 
+TotalUnique 171                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 182                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 12 16 112292 36 36 26693
+1 15 15 5929 18 19 18528
+2 12 15 100597 36 38 27841
+3 4 4 2298 55 55 37773
+4 10 10 5188 39 39 33498
+5 5 5 853 10 10 6557
+6 38 43 37982 86 95 444061
+7 5 5 2629 63 63 51499
+8 7 7 2890 14 17 13900
+9 9 10 10171 33 33 20702
+10 17 17 12564 32 32 22145
+11 8 18 197565 24 27 108323
+12 21 25 104631 38 41 117541
+13 9 9 5934 38 38 28904
+14 17 26 140609 35 35 25962
+15 19 19 11383 30 31 21005
+16 18 21 106957 80 80 22117
+17 13 13 11462 29 29 19538
+18 13 13 9584 27 27 14972
+19 14 14 9346 22 22 19640
+20 17 17 11905 19 19 16737
+21 42 42 29181 62 63 51651
+22 8 8 4596 17 17 14545
+23 13 13 6111 22 22 17230
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 346 385 942657
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+jackygamescom 2 6 112934 20170815142445
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+googlebot 56 132899 20170831163959 0
+bot[+:,\.\;\/\\-] 47 17666 20170830184957 0
+spider 42 482699 20170831063148 0
+no_user_agent 33 25515 20170831232728 0
+yandex 27 6302 20170830204857 0
+crawl 14 7640 20170829000843 0
+mj12bot 10 6120 20170829182958 0
+robot 6 7644 20170825012032 0
+python 4 1184 20170831172138 0
+slurp 3 853 20170819232302 0
+ia_archiver 2 1184 20170817121054 0
+seznambot 1 0 20170831161446 0
+mail\.ru 1 0 20170825041541 0
+phantom 1 0 20170815055652 0
+surveybot 2 0 20170822091804 0
+baiduspider 2 853 20170830003942 0
+nutch 1 3822 20170805124730 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+css 14 12576 0 0
+png 17 87333 0 0
+html 346 322794 0 0
+js 8 519954 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winlong 23
+winxp 14
+winnt 103
+linuxubuntu 1
+linux 52
+winvista 5
+macosx 48
+win2003 2
+Unknown 20
+win2008 117
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 34
+msie6.0 2
+firefox15.0 1
+chrome 209
+firefox26.0 2
+firefox54.0 4
+firefox34.0 1
+firefox49.0 1
+curl 1
+msie8.0 26
+firefox3.5.0 2
+firefox0.10.1 1
+msie7.0 3
+firefox40.1 1
+msie9.0 59
+Unknown 16
+firefox27.0 1
+firefox50.0 3
+firefox53.0 2
+opera 1
+firefox3.6.2 1
+firefox7.0.1 3
+firefox30.0 1
+firefox56.0 1
+firefox33.0 1
+mozilla 11
+firefox1.0 1
+firefox3.0.12 1
+netscape5.0 1
+firefox14.0.1 1
+firefox51.0 3
+firefox3.6.3 1
+safari 20
+firefox15.0.1 2
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+www.x9o.de_-_SUCHPROGRAMM_-_V_1.0 20170826074334
+Mozilla/5.0_(compatible;_Redirector/1.1) 20170813041907
+Barkrowler_0.1.6 20170830103054
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170806121650
+Mozilla/5.0_(compatible;_ips-agent) 20170819094213
+Iframely/1.1.0_(_https://iframely.com/;) 20170814180459
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170812192722
+Curl/PHP_5.6.30_(http://github.com/shuber/curl) 20170813153645
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170813215946
+Peet_Browser 20170816234759
+Mechanize/2.7.5_Ruby/2.2.3p173_(http://github.com/sparklemotion/mechanize/) 20170830204809
+WWW-Mechanize/1.73 20170811212120
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+www.x9o.de_-_SUCHPROGRAMM_-_V_1.0 20170826074334
+Iframely/1.1.0_(_https://iframely.com/;) 20170814180459
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170813215946
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170812192722
+Barkrowler_0.1.6 20170830103054
+Peet_Browser 20170816234759
+Mechanize/2.7.5_Ruby/2.2.3p173_(http://github.com/sparklemotion/mechanize/) 20170830204809
+WWW-Mechanize/1.73 20170811212120
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 214 223
+From1 1 1
+From2 52 58
+From3 71 74
+From4 8 29
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 52 58
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 22
+http://jcompose.com 13 16
+https://l.instagram.com 8 8
+http://m.facebook.com 7 7
+http://www.bing.com/search 6 6
+http://burger-imperia.com 6 6
+https://www.facebook.com 5 5
+http://wp.jcompose.com 4 4
+http://pizza-tycoon.com 3 3
+https://www.youtube.com 3 3
+http://blog.jcompose.com 2 2
+http://pizza-imperia.com 1 1
+http://forum.jcompose.com 1 1
+http://test.jcompose.com 1 1
+http://www.siteindexed.com/myurl=jcompose.com 1 1
+http://comedy.jcompose.com 1 1
+https://t.co/qIaDco6wkv 1 1
+https://www.ipage.com/controlpanel/VisitorStats.bml 1 1
+https://github.com 1 1
+http://l.facebook.com/l.php 2 2
+https://t.co/GtP4NXWZmB 1 1
+http://www.marinetraffic.com 2 2
+https://l.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 6 3636
+406 6 1570
+407 1 415
+404 623 481360
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 156
+/dump.tar.gz 1 http://jcompose.com
+/js/new/fckeditor/editor/dialog/fck_about.html 1 -
+/ 17 -
+/admin/content/sitetree/ 1 -
+/wp-content/uploads/8d4e7adef8a8d8e.php 1 -
+/wordpress/ 1 -
+/browser-online-marble-popper_18-1.html 2 -
+/admin.php 3 -
+/Old/Games/Buttons/morebuttons.html 1 -
+/ckeditor/editor/dialog/fck_about.html 1 -
+/.well-known/apple-app-site-association 8 -
+/manage/fckeditor/editor/dialog/fck_about.html 1 -
+/backup.sql.gz 1 http://jcompose.com
+/inc/fckeditor/editor/dialog/fck_about.html 1 -
+/HTML/Random-Music/index.html 1 -
+/html/js/editor/fckeditor/editor/dialog/fck_about.html 1 -
+/blog 1 -
+/Games/SYN/index.html 7 -
+/xmlrpc.php 43 -
+/Dev/Games/Potatoman/index.html 1 -
+/browser-pc-card-board_5-1.html 1 -
+/dump.sql.zip 1 http://jcompose.com
+/js/lib/fckeditor/editor/dialog/fck_about.html 2 -
+/th1s_1s_a_4o4.html 49 http://www.google.com/url
+/dump.tgz 1 http://jcompose.com
+/db.tar 1 http://jcompose.com
+/mm5/admin.mvc 1 jcompose.com
+/user/register 2 -
+/Fckeditorold/editor/dialog/fck_about.html 1 -
+/support/fckeditor/editor/dialog/fck_about.html 1 -
+/home/fckeditor/editor/dialog/fck_about.html 1 -
+/Games/Asteroids2/index.html 8 -
+/js/data/fckeditor/editor/dialog/fck_about.html 1 -
+/javascript/fckeditor/editor/dialog/fck_about.html 1 -
+/dump.sql 1 http://jcompose.com
+/db.sql.bz2 1 http://jcompose.com
+/administrator/ 3 -
+/src/index.css 2 -
+/inc/home/fckeditor/editor/dialog/fck_about.html 1 -
+/db.zip 1 http://jcompose.com
+/WORDPRESS 1 -
+/js/editor/fckeditor/editor/dialog/fck_about.html 1 -
+/system/fckeditor/editor/dialog/fck_about.html 1 -
+/wp-login.php 6 -
+/sql.zip 1 http://jcompose.com
+/Old/Games/Buttons/index.html 1 -
+/components/ 1 -
+/project/fckeditor/editor/dialog/fck_about.html 1 -
+/Games/Left/index.html 3 -
+/Games/Left/Left.html 2 -
+/dbdump.sql 1 http://jcompose.com
+/data.sql 1 http://jcompose.com
+/src/tb.href 7 http://www.google.com/url
+/modules/fckeditor/editor/dialog/fck_about.html 1 -
+/browser-online-time-management_25-1.html 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/wp-admin/admin-ajax.php 4 -
+/main/inc/lib/fckeditor/editor/dialog/fck_about.html 1 -
+/db_backup.sql 1 http://jcompose.com
+/administartor/fckeditor/editor/dialog/fck_about.html 1 -
+/Dev/Games/MaxAdventure/index.html 1 -
+/Games/Potatoman2/index.html 3 -
+/js/mage/cookies.js 1 -
+/wp-content/uploads/8d4e7adef53b967.php 1 -
+/backup.sql 1 http://jcompose.com
+/license.php 2 http://jackygames.com/wp-admin/
+/js/outils/fckeditor/editor/dialog/fck_about.html 1 -
+/static/js/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/ads.txt 1 -
+/1.sql 1 http://jcompose.com
+/Old/Games/Asteroids/index.html 1 -
+/admin/templates/fckeditor/editor/dialog/fck_about.html 1 -
+/editor1/editor/dialog/fck_about.html 1 -
+/temp.sql 1 http://jcompose.com
+/js/editor/FCKeditor/editor/dialog/fck_about.html 1 -
+/db.sql.gz 1 http://jcompose.com
+/up.php 2 -
+/browser-pc-arcade-action_1-1.html 1 -
+/fckeditor/editor/dialog/fck_about.html 1 -
+/administrator/index.php 4 -
+/simpla/ 1 -
+/Fckeditornew/editor/dialog/fck_about.html 1 -
+/scripts/fckeditor/editor/dialog/fck_about.html 2 -
+/backup.sql.bz2 1 http://jcompose.com
+/Games/PocketKiwis/index.html 10 -
+/js/fckeditor/editor/dialog/fck_about.html 1 -
+/outils/fckeditor/editor/dialog/fck_about.html 1 -
+/browser-online-new-release_0-1.html 1 -
+/dump.sql.tgz 1 http://jcompose.com
+/Examples/maxadventure.png 2 -
+/js/news/fckeditor/editor/dialog/fck_about.html 1 -
+/sitemap.xml 1 -
+/robots.txt 247 -
+/lib/fckeditor/editor/dialog/fck_about.html 1 -
+/main/fckeditor/editor/dialog/fck_about.html 1 -
+/manager/ 1 -
+/uploadify/uploadify.php 2 http://jackygames.com/wp-admin/
+/js/home/fckeditor/editor/dialog/fck_about.html 1 -
+/data/fckeditor/editor/dialog/fck_about.html 1 -
+/browser-online-strategy_29-1.html 1 -
+/editor/dialog/fck_about.html 1 -
+/wordpress 1 -
+/Games/Nan-Shank/index.html 3 -
+/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/editorold/editor/dialog/fck_about.html 1 -
+/new/fckeditor/editor/dialog/fck_about.html 1 -
+/Games/SSBB/index.html 20 -
+/wp-includes/js/quicktags.js 1 -
+/admin/ 1 -
+/javascript/editors/fckeditor/editor/dialog/fck_about.html 1 -
+/Programs 1 -
+/dbdump.sql.gz 1 http://jcompose.com
+/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/.well-known/assetlinks.json 8 -
+/Games/Potatoman/index.html 7 -
+/editor/editor/dialog/fck_about.html 1 -
+/db.sql.zip 1 http://jcompose.com
+/blog/ 3 -
+/sql.tgz 1 http://jcompose.com
+/sql.tar 1 http://jcompose.com
+/src/jquery-3.2.1.min.js 1 -
+/about.html 1 -
+/admin/lib/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/sysadmin/fckeditor/editor/dialog/fck_about.html 1 -
+/title.png 1 -
+/wp/ 1 -
+/sql.sql 1 http://jcompose.com
+/view-allora-and-the-broken-portal-walkthrough_5.html 1 -
+/admin/fckeditor/editor/dialog/fck_about.html 1 -
+/templates/fckeditor/editor/dialog/fck_about.html 1 -
+/download-atlantic-quest_b-mac-12253-en.html 1 -
+/Games/Buttons/index.html 2 -
+/sql.tar.gz 1 http://jcompose.com
+/blog/robots.txt 1 -
+/browser-mac-arcade-action_1-1.html 1 -
+/js/modules/fckeditor/editor/dialog/fck_about.html 1 -
+/sql.gz 1 http://jcompose.com
+/plugins/fckeditor/editor/dialog/fck_about.html 1 -
+/library/fckeditor/editor/dialog/fck_about.html 1 -
+/js/admin/templates/fckeditor/editor/dialog/fck_about.html 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 2 -
+/scripts/FCKeditor/editor/dialog/fck_about.html 1 -
+/wp 1 -
+/Old/Games/Potatoman/index.html 1 -
+/Games/PocketKiwis/processing.js 1 http://jackygames.com/Games/PocketKiwis/index.html
+/Games/Asteroids/index.html 5 -
+/inc/news/fckeditor/editor/dialog/fck_about.html 1 -
+/index.php 2 -
+/inc/library/fckeditor/editor/dialog/fck_about.html 1 -
+/Reviews.html 1 -
+/apple-app-site-association 8 -
+/common/fckeditor/editor/dialog/fck_about.html 1 -
+/inc/new/fckeditor/editor/dialog/fck_about.html 1 -
+/Games/Buttons/morebuttons.html 2 -
+/site.sql 1 http://jcompose.com
+/mysql.zip 1 http://jcompose.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 182
+69.47.91.209 61 76 362395 20170829193559
+184.154.139.22 20 23 25304 20170831063148
+184.154.36.164 10 10 11392 20170831213517
+104.238.248.15 9 9 5589 20170820153247
+104.148.118.51 8 8 6770 20170819164328
+184.154.36.166 8 10 3607 20170830213225
+66.102.6.108 6 6 5272 20170824134259
+70.42.131.170 6 6 4857 20170830223007
+184.154.36.168 6 6 5533 20170830063855
+184.154.36.167 5 6 5462 20170817064140
+34.229.56.23 1 1 2116 20170807013414
+181.214.189.197 1 1 0 20170831063112
+162.212.168.167 1 1 0 20170828085038
+199.30.24.157 0 1 1048 
+173.252.124.67 1 1 0 20170813215946
+204.44.65.210 2 2 1184 20170813143646
+223.25.160.57 1 1 0 20170823215641
+194.87.146.150 1 1 0 20170814025213
+45.35.167.68 1 1 592 20170813010057
+91.210.145.95 3 3 3804 20170819063054
+149.202.72.198 2 2 1706 20170824001720
+70.210.83.12 2 2 592 20170813235108
+193.201.225.45 1 1 0 20170817162544
+37.59.35.90 1 1 853 20170825175152
+64.74.215.128 2 2 1706 20170829044459
+69.89.103.28 2 2 1706 20170831135847
+173.252.91.251 1 1 592 20170813192825
+64.53.221.55 1 4 95420 20170812111356
+54.160.122.176 1 1 0 20170809010334
+63.250.13.231 1 1 3822 20170801171446
+35.196.31.63 1 1 853 20170830204809
+178.33.39.197 1 1 0 20170810105420
+104.207.150.177 1 1 0 20170826163819
+74.85.210.38 1 1 592 20170814060025
+192.99.188.206 1 1 853 20170827165307
+138.246.253.19 5 5 0 20170831051851
+131.253.27.32 0 1 7713 
+158.69.252.227 1 1 0 20170823192715
+104.198.54.140 1 1 0 20170816234759
+35.190.189.79 1 1 853 20170822204229
+204.79.180.18 1 1 0 20170815224924
+54.85.156.173 1 1 0 20170804013224
+34.229.245.132 1 1 0 20170802012656
+66.102.6.106 3 3 2037 20170820181207
+66.102.6.153 2 2 1706 20170829193854
+40.78.146.128 1 1 0 20170812111337
+52.34.89.32 1 1 853 20170821155409
+202.46.52.153 1 1 0 20170825021007
+131.253.25.178 0 3 95420 
+107.161.142.143 1 1 592 20170814081135
+144.76.23.201 1 1 1268 20170819213042
+202.46.58.151 1 1 0 20170812231510
+89.249.64.179 2 2 853 20170821203359
+52.210.126.111 1 1 0 20170830103054
+162.244.35.14 1 1 0 20170825083043
+66.102.6.151 1 1 853 20170828161908
+205.237.93.206 1 1 853 20170825150931
+59.61.184.225 1 1 1274 20170818022224
+54.77.241.129 1 1 0 20170809181629
+91.223.82.156 1 1 0 20170812150505
+35.185.88.149 1 1 853 20170824124237
+104.207.157.112 1 1 0 20170803084039
+202.46.54.146 1 1 0 20170814211612
+35.196.179.186 1 1 853 20170826201940
+85.25.235.85 1 1 592 20170817155253
+42.51.208.6 2 2 592 20170813171704
+91.210.145.190 4 4 3412 20170826100335
+158.69.229.134 1 1 592 20170813025953
+69.47.155.163 2 2 1268 20170819213416
+139.226.144.61 1 1 0 20170822051445
+65.55.210.125 0 1 0 
+208.54.85.184 1 1 592 20170813230416
+61.160.95.126 1 1 0 20170811192951
+13.58.116.241 1 1 0 20170826094930
+112.117.18.81 1 1 1268 20170818185505
+202.46.53.157 1 1 0 20170815144520
+68.62.86.154 4 4 3151 20170821023859
+69.58.178.57 1 1 0 20170819094213
+64.53.184.21 2 2 1184 20170815142127
+198.240.88.202 1 1 1268 20170819163801
+52.23.254.239 1 1 592 20170814180459
+50.117.89.222 1 1 853 20170821164507
+138.197.88.71 1 1 0 20170815092812
+80.82.215.160 1 1 853 20170826074334
+54.193.46.142 1 1 592 20170817002406
+167.114.65.240 1 1 0 20170806121650
+188.226.142.230 1 1 592 20170812192722
+74.85.220.21 1 1 0 20170813011758
+70.210.67.84 1 1 592 20170814182431
+107.21.151.28 1 1 853 20170820122106
+162.242.156.106 2 2 1706 20170826174411
+38.100.21.172 1 1 592 20170812155010
+35.196.103.127 1 1 853 20170823202837
+38.145.85.152 1 1 1268 20170818104838
+65.55.210.66 0 1 0 
+82.67.41.4 1 1 0 20170808223239
+202.46.51.109 1 1 0 20170829073206
+38.100.21.68 1 1 0 20170815210953
+77.243.183.83 2 2 1184 20170816130259
+54.89.6.109 1 1 0 20170803012531
+202.46.56.134 1 1 853 20170823125836
+66.102.6.170 1 1 853 20170825152652
+172.104.158.117 1 1 592 20170813041907
+104.239.149.11 2 2 1184 20170813211052
+199.30.24.67 0 1 7713 
+185.201.11.150 1 1 0 20170812030436
+138.128.206.233 1 1 592 20170813062123
+54.90.193.82 1 1 853 20170826232356
+69.30.255.186 2 2 1706 20170820032920
+89.32.127.178 2 2 853 20170824123738
+34.229.254.42 1 1 0 20170806013132
+172.56.27.82 2 2 592 20170814151435
+199.30.24.198 0 1 7713 
+212.83.158.95 3 3 1776 20170815161924
+5.135.158.101 1 1 0 20170821215636
+52.21.137.163 1 1 1268 20170819213026
+66.102.6.110 3 3 2037 20170821222612
+144.76.219.43 1 1 0 20170814063645
+207.174.251.54 2 2 592 20170814090719
+202.46.54.103 1 1 0 20170814004831
+45.56.116.155 1 1 1268 20170819212837
+54.89.191.13 1 1 0 20170808014532
+154.16.164.2 1 1 0 20170828020657
+93.159.230.39 1 1 592 20170812225442
+202.46.49.208 1 1 0 20170819181831
+66.220.156.144 1 1 853 20170826160558
+167.114.233.118 1 1 592 20170813192333
+204.79.180.6 1 1 0 20170806094101
+5.254.79.66 1 1 592 20170815193957
+13.84.40.16 1 1 592 20170814022153
+211.21.48.217 1 1 0 20170812150512
+209.99.139.27 1 1 853 20170829205111
+202.46.49.123 1 1 0 20170826093028
+216.157.209.66 1 1 0 20170823202653
+94.23.75.60 1 1 0 20170822234038
+73.161.182.158 1 1 592 20170813223644
+35.40.102.224 1 1 853 20170828170619
+185.104.120.4 1 1 853 20170821042958
+66.249.88.46 1 1 853 20170828080839
+216.218.222.11 1 1 0 20170821121259
+110.88.44.27 1 1 1268 20170819180006
+82.196.7.217 1 1 0 20170805112530
+209.133.211.147 1 1 592 20170813153645
+52.90.133.123 1 1 0 20170809155333
+139.226.144.62 1 1 0 20170826043004
+35.196.236.208 1 1 853 20170824231232
+199.30.24.73 0 1 1048 
+54.163.168.113 1 1 1268 20170819213036
+206.225.80.193 2 2 592 20170814003248
+199.19.104.163 1 1 853 20170830195748
+141.134.39.252 1 1 0 20170817053933
+34.207.197.84 1 1 592 20170813145112
+191.101.201.12 1 1 853 20170821050616
+35.196.102.30 1 1 853 20170825202836
+199.30.228.130 1 1 592 20170813043150
+72.52.75.27 1 1 0 20170830110526
+158.69.229.69 2 2 1706 20170820225805
+46.0.193.128 1 1 0 20170817064100
+64.74.215.59 1 1 853 20170830103828
+104.130.124.209 2 2 2536 20170818155750
+188.226.129.55 1 1 0 20170818135621
+167.114.228.206 1 1 2116 20170807005458
+35.196.98.246 1 1 592 20170814200042
+66.102.8.202 1 1 592 20170813153645
+112.80.211.242 1 1 1268 20170818200758
+51.15.45.97 1 1 0 20170815124747
+54.91.211.55 1 1 0 20170805013100
+50.105.72.210 2 2 1184 20170812121155
+52.10.34.63 1 1 0 20170811212120
+69.89.103.29 2 2 853 20170830142407
+120.35.38.72 1 1 1268 20170818174016
+202.46.51.187 1 1 0 20170808025639
+199.30.25.169 0 1 86659 
+50.124.254.63 5 5 2960 20170815165508
+65.55.210.56 0 1 0 
+204.85.191.31 2 2 853 20170822102336
+195.147.178.94 2 2 592 20170814022114
+185.201.9.154 1 1 0 20170810173721
+124.235.138.156 1 1 1268 20170818185056
+198.240.83.124 1 1 853 20170830195530
+202.46.51.167 1 1 0 20170804163414
+199.30.24.154 0 3 95420 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20170801 2 3 11535 2
+20170802 2 2 3822 2
+20170803 4 5 11535 4
+20170804 3 3 3822 3
+20170805 3 4 7713 3
+20170806 4 4 3822 4
+20170807 6 15 210181 5
+20170808 4 5 0 4
+20170809 4 11 99632 4
+20170810 4 5 1048 4
+20170811 3 7 98584 3
+20170812 22 32 200311 14
+20170813 32 32 15984 29
+20170814 38 38 17168 30
+20170815 28 32 124774 20
+20170816 8 8 4144 7
+20170817 11 11 3552 11
+20170818 20 20 22178 16
+20170819 24 24 21817 15
+20170820 12 12 10236 10
+20170821 15 15 10236 14
+20170822 8 8 3412 7
+20170823 12 12 6824 12
+20170824 9 9 5971 8
+20170825 9 9 5971 9
+20170826 19 19 11942 15
+20170827 4 4 3412 4
+20170828 8 8 5118 8
+20170829 10 10 6824 9
+20170830 13 13 8530 12
+20170831 5 5 2559 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 6
+0s-30s 276
+2mn-5mn 3
+30s-2mn 4
+15mn-30mn 2
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 344 220063 293 292
+/stats/ 1 4252 0 0
+/stats/usage_201708.html 1 98479 0 1
+END_SIDER
